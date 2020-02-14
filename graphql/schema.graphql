@@ -1,9 +1,10 @@
-type nicolas {
+type Person {
   name: String!
   age: Int!
   gender: String!
 }
 
 type Query {
-  person: nicolas!
+  people: [Person]!
+  person(id: Int!): Person
 }
