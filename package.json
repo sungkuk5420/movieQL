@@ -1,0 +1,29 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql 첫 코스 연습",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sungkuk5420/movieQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sungkuk5420/movieQL/issues"
+  },
+  "homepage": "https://github.com/sungkuk5420/movieQL#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4"
+  }
+}
